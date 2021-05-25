@@ -1,18 +1,51 @@
-
+#bloc_page{
+    margin-left: 50px;
+    
+}
 /* header */
 header{
     display: flex;
     justify-content: space-between;
 }
 nav ul{
+    background-color: darkcyan;
     display: flex;
     list-style-type: none;
+    height: 120px;
 }
 
 /* body */
+#section1{
+    background-color: blue;
+}
+#search{
+    background-color: darkslateblue;
+}
 #section2{
+    background-color: cadetblue;
     display: flex;
     justify-content: space-between;
+}
+#host_marseille{
+    background-color: #F2F2F2;
+    flex: wrap;
+    width: 900px;
+}
+#host_marseille div{
+    background-color: darkgrey;
+    margin: auto;
+}
+#popularity{
+    background-color: #F2F2F2;
+}
+#popularity div{
+    background-color: darkgrey;
+}
+#section3{
+    background-color: cyan;
+}
+#section3 div{
+    background-color: darkgrey;
 }
 
 /* footer */
