@@ -15,7 +15,7 @@ header{
 }
 header a:hover{
     color: #0065FC;
-    border-top: #0065FC 2px solid;
+    border-top: #0065FC 1px solid;
 }
 header strong{
     color: #0065FC;
@@ -26,6 +26,7 @@ nav{
 }
 .link_nav{
     text-align: center;
+    padding: 30px;
 }
 
 /* main */
@@ -50,8 +51,8 @@ nav{
     border-radius: 10px;
     box-shadow: 2px 2px 15px darkgrey;
 }
-.card a:hover{
-    box-shadow: 3px 3px 5px #0065FC; /* Ne fonctionne pas */
+.card:hover{
+    box-shadow: 3px 3px 5px #0065FC;
 }
 
 
