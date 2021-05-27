@@ -30,10 +30,24 @@
         <section id="section1"> <!-- section de recherche -->
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form method="post" action="search.php">
-
-            </form>
-            <div id="search">Recherche</div><!-- Insérer la fonction recherche -->
+            <div>
+                <form method="post" action="search.php">
+                    <label for="search" id="search"><!-- logo loupe à inserer --></label>
+                    <input type="search" placeholder="Marseille, France" id="search" />
+                    <input type="submit" value="Rechercher" />
+                    <div> <!-- logo des filtres à ajouter -->
+                        <label for="filter" id="filter">Filtres</label> 
+                        <input type="checkbox" name="economique" id="economique" />
+                            <label for="economique">Economique</label>
+                        <input type="checkbox" name="familial" id="familial" />
+                            <label for="familial">Familial</label>
+                        <input type="checkbox" name="romantique" id="romantique" />
+                            <label for="romantique">Romantique</label>
+                        <input type="checkbox" name="animaux_autorisés" id="animaux_autorisés" />
+                            <label for="animaux_autorisés">Animaux autorisés</label>
+                    </div>
+                </form>    
+            </div>
             <p><!-- logo i à inserer -->Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
@@ -125,42 +139,42 @@
         <section id="section3"> <!-- section activités -->
                 <h1>Activités à Marseille</h1>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port" />
                         <h2>Vieux Port</h2>
                     </a>
                 </div>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort pomegues" />
                         <h2>Fort Pomègues</h2>
                     </a>
-                </div class="card">
+                </div>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul" />
                         <h2>Îles du Frioul</h2>
                     </a>
                 </div>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques" />
                         <h2>Parc National des Calanques</h2>
                     </a>
                 </div>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
                         <h2>Notre-Dame-de-la-Garde</h2>
                     </a>
                 </div>
 
-                <div class="card">
+                <div class="card_activity">
                     <a href="#">
                         <img src="images/activity/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc Longchamp" />
                         <h2>Parc Longchamp</h2>

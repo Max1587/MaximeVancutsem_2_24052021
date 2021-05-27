@@ -54,12 +54,16 @@ nav{
 .card:hover{
     box-shadow: 3px 3px 5px #0065FC;
 }
-
-
+.card_activity{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px darkgrey;
+}
 /* footer */
 footer{
     display: flex;
     justify-content: space-around;
+    background-color: #F2F2F2;
 }
 footer ul{
     list-style-type: none;
