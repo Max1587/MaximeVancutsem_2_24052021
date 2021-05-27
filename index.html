@@ -10,22 +10,27 @@
   <div id="bloc_page">
       
     <header> <!-- En tete -->
-        <div id="logo">
-            <img src="logo/Reservia.svg" alt="logo reservia" />
+        <div class="conteneur">
+            <div id="logo">
+                <img src="logo/Reservia.svg" alt="logo reservia" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Hebergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Hebergements</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main> <!-- Contenu -->
         <section id="section1"> <!-- section de recherche -->
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
+            <form method="post" action="search.php">
+                
+            </form>
             <div id="search">Recherche</div><!-- Insérer la fonction recherche -->
             <p><!-- logo i à inserer -->Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
@@ -34,42 +39,42 @@
             <article id="host_marseille">
                 <h1>Hébergement à Marseille</h1>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Auberge de la Cannebière</h2>
                         <p>Nuit à partir de <strong>25€</strong></p>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel du port</h2>
                         <p>Nuit à partir de <strong>52€</strong></p>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel Les mouettes</h2>
                         <p>Nuit à partir de <strong>76€</strong></p>
                     </a>
-                </div>
+                </div class="card">
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel de la mer</h2>
                         <p>Nuit à partir de <strong>46€</strong></p>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Auberge Le Panier</h2>
                         <p>Nuit à partir de <strong>23€</strong></p>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel chez Amina</h2>
                         <p>Nuit à partir de <strong>96€</strong></p>
@@ -80,66 +85,66 @@
 
             </article>
 
-            <aside id="popularity">
+            <article id="popularity">
                 <h1>Les plus populaires</h1> <!-- logo graphique à ajouter -->
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel Le soleil du matin</h2>
                         <p>Nuit à partir de <strong>128€</strong></p>
                     </a>
                 </div>
                 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Au coeur de l'eau Chambresd'hotes</h2>
                         <p>Nuit à partir de <strong>71€</strong></p>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Hôtel Tout bleu et Blanc</h2>
                         <p>Nuit à partir de <strong>68€</strong></p>
                     </a>
                 </div>
-            </aside>
+            </article>
         </section>
 
         <section id="section3"> <!-- section activités -->
                 <h1>Activités à Marseille</h1>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Vieux Port</h2>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Fort Pomègues</h2>
                     </a>
-                </div>
+                </div class="card">
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Îles du Frioul</h2>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Parc National des Calanques</h2>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Notre-Dame-de-la-Garde</h2>
                     </a>
                 </div>
 
-                <div>
+                <div class="card">
                     <a href="#">
                         <h2>Parc Longchamp</h2>
                     </a>

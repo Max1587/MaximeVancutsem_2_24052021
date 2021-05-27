@@ -1,20 +1,30 @@
 #bloc_page{
-    margin-left: 50px;
-    
+    max-width: 1350px;
+    margin: auto;
+}
+a /* Liens par défaut (non survolés) */{
+   text-decoration: none;
+   color: black;
 }
 /* header */
 header{
     display: flex;
     justify-content: space-between;
 }
+header a:hover{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
+#logo{
+    float: left;
+}
 nav ul{
     background-color: darkcyan;
     display: flex;
     list-style-type: none;
-    height: 120px;
 }
 
-/* body */
+/* main */
 #section1{
     background-color: blue;
 }
@@ -22,7 +32,6 @@ nav ul{
     background-color: darkslateblue;
 }
 #section2{
-    background-color: cadetblue;
     display: flex;
     justify-content: space-between;
 }
@@ -31,22 +40,17 @@ nav ul{
     flex: wrap;
     width: 900px;
 }
-#host_marseille div{
-    background-color: darkgrey;
-    margin: auto;
-}
 #popularity{
     background-color: #F2F2F2;
 }
-#popularity div{
-    background-color: darkgrey;
-}
 #section3{
-    background-color: cyan;
+    background-color: #F2F2F2;
 }
-#section3 div{
-    background-color: darkgrey;
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px darkgrey;
 }
+
 
 /* footer */
 footer{
@@ -56,3 +60,4 @@ footer{
 footer ul{
     list-style-type: none;
 }
+
