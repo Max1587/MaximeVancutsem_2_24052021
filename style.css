@@ -6,49 +6,52 @@ a /* Liens par défaut (non survolés) */{
    text-decoration: none;
    color: black;
 }
+
 /* header */
 header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 header a:hover{
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
-#logo{
-    float: left;
+header strong{
+    color: #0065FC;
 }
-nav ul{
-    background-color: darkcyan;
+nav{
     display: flex;
-    list-style-type: none;
+    justify-content: flex-end;
+}
+.link_nav{
+    text-align: center;
 }
 
 /* main */
-#section1{
-    background-color: blue;
-}
-#search{
-    background-color: darkslateblue;
-}
+
 #section2{
     display: flex;
     justify-content: space-between;
 }
 #host_marseille{
     background-color: #F2F2F2;
+    border-radius: 10px;
     flex: wrap;
-    width: 900px;
+    width: 60%;
 }
 #popularity{
     background-color: #F2F2F2;
-}
-#section3{
-    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 30%;
 }
 .card{
+    background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 15px darkgrey;
+}
+.card a:hover{
+    box-shadow: 3px 3px 5px #0065FC; /* Ne fonctionne pas */
 }
 
 

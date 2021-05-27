@@ -10,18 +10,20 @@
   <div id="bloc_page">
       
     <header> <!-- En tete -->
-        <div class="conteneur">
             <div id="logo">
                 <img src="logo/Reservia.svg" alt="logo reservia" />
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Hebergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                </ul>
+            <nav> <!-- Probleme avec flexbox, taille des blocks, inline?, j'ai beau bidouillé...-->
+                <div class=link_nav>   <!-- Utilisation de grid à la place de flex? -->
+                    <a href="#section2">Hebergements</a>
+                </div>
+                <div class=link_nav>
+                    <a href="#section3">Activités</a>
+                </div>
+                <div class=link_nav>
+                    <a href="#"><strong>S'inscrire</strong></a>
+                </div>
             </nav>
-        </div>
     </header>
 
     <main> <!-- Contenu -->
@@ -29,7 +31,7 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <form method="post" action="search.php">
-                
+
             </form>
             <div id="search">Recherche</div><!-- Insérer la fonction recherche -->
             <p><!-- logo i à inserer -->Plus de 500 logements sont disponibles dans cette ville</p>
@@ -41,6 +43,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge de la cannebiere" />
                         <h2>Auberge de la Cannebière</h2>
                         <p>Nuit à partir de <strong>25€</strong></p>
                     </a>
@@ -48,6 +51,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port" />
                         <h2>Hôtel du port</h2>
                         <p>Nuit à partir de <strong>52€</strong></p>
                     </a>
@@ -55,6 +59,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel des mouettes" />
                         <h2>Hôtel Les mouettes</h2>
                         <p>Nuit à partir de <strong>76€</strong></p>
                     </a>
@@ -62,6 +67,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer" />
                         <h2>Hôtel de la mer</h2>
                         <p>Nuit à partir de <strong>46€</strong></p>
                     </a>
@@ -69,6 +75,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier" />
                         <h2>Auberge Le Panier</h2>
                         <p>Nuit à partir de <strong>23€</strong></p>
                     </a>
@@ -76,6 +83,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez amina" />
                         <h2>Hôtel chez Amina</h2>
                         <p>Nuit à partir de <strong>96€</strong></p>
                     </a>
@@ -90,6 +98,7 @@
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin" />
                         <h2>Hôtel Le soleil du matin</h2>
                         <p>Nuit à partir de <strong>128€</strong></p>
                     </a>
@@ -97,13 +106,15 @@
                 
                 <div class="card">
                     <a href="#">
-                        <h2>Au coeur de l'eau Chambresd'hotes</h2>
+                        <img src="images/host/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="au coeur de l'eau chambres d hote" />
+                        <h2>Au coeur de l'eau Chambres d'hôtes</h2>
                         <p>Nuit à partir de <strong>71€</strong></p>
                     </a>
                 </div>
 
                 <div class="card">
                     <a href="#">
+                        <img src="images/host/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel tout bleu et blanc" />
                         <h2>Hôtel Tout bleu et Blanc</h2>
                         <p>Nuit à partir de <strong>68€</strong></p>
                     </a>
