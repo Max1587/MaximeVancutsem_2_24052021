@@ -20,31 +20,52 @@ header a:hover{
 header strong{
     color: #0065FC;
 }
-nav{
-    display: flex;
-    justify-content: flex-end;
+header #logo{
+    flex-basis: 75%;
 }
-.link_nav{
+header nav{
+    flex-basis: 25%;
+}
+header nav .topmenu{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+header nav .topmenu .link_nav{
     text-align: center;
+    padding: 0px;
+}
+header nav .topmenu .link_nav a{
     padding: 30px;
 }
 
+
 /* main */
 
-#section2{
+#section2 .bloc{
     display: flex;
-    justify-content: space-between;
 }
-#host_marseille{
+#section2 #host_marseille{
     background-color: #F2F2F2;
     border-radius: 10px;
-    flex: wrap;
-    width: 60%;
+    
+}
+#section2 #host_marseille .cardlist{
+    display: flex;
+    flex-wrap: wrap;
+}
+#section2 #host_marseille .cardlist .card{
+    flex-basis: 33.33%;
+}
+#section2 #host_marseille .cardlist .card a{
+    display: block;
+}
+#section2 #host_marseille .cardlist .card a img{
+    width: 25%;
 }
 #popularity{
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 30%;
 }
 .card{
     background-color: white;
