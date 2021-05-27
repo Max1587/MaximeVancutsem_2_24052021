@@ -1,4 +1,4 @@
-#bloc_page{
+main{
     max-width: 1350px;
     margin: auto;
 }
@@ -13,13 +13,10 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header a:hover{
-    color: #0065FC;
-    border-top: #0065FC 1px solid;
-}
 header strong{
     color: #0065FC;
 }
+
 header #logo{
     flex-basis: 75%;
 }
@@ -38,34 +35,39 @@ header nav .topmenu .link_nav{
 header nav .topmenu .link_nav a{
     padding: 30px;
 }
+header nav .topmenu .link_nav a:hover{
+    color: #0065FC;
+    border-top: #0065FC 1px solid;
+}
+
 
 
 /* main */
 
-#section2 .bloc{
+#section_results .bloc{
     display: flex;
 }
-#section2 #host_marseille{
+#section_results .bloc #host_marseille{
     background-color: #F2F2F2;
     border-radius: 10px;
-    
 }
-#section2 #host_marseille .cardlist{
+#section_results .bloc #host_marseille .cardlist{
     display: flex;
     flex-wrap: wrap;
 }
-#section2 #host_marseille .cardlist .card{
+#section_results .bloc #host_marseille .cardlist .card{
     flex-basis: 33.33%;
+    }
+#section_results .bloc #host_marseille .cardlist .card a img{
+    width: 50%;
 }
-#section2 #host_marseille .cardlist .card a{
-    display: block;
-}
-#section2 #host_marseille .cardlist .card a img{
-    width: 25%;
-}
+
 #popularity{
     background-color: #F2F2F2;
     border-radius: 10px;
+}
+#popularity img{
+    width: 50%;
 }
 .card{
     background-color: white;
