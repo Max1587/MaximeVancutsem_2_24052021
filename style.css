@@ -26,13 +26,13 @@
 
 body{
     font-family: "raleway", "Arial", "Helvetica", "sans-serif";
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-main{
-    max-width: 1350px;
-    margin: auto;
-}
-a /* Liens par défaut (non survolés) */{
+a{ /* Liens par défaut (non survolés) */
    text-decoration: none;
    color: black;
 }
@@ -42,6 +42,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 120px;
+    width: 100%;
 }
 header strong{
     color: #0065FC;
@@ -52,6 +54,7 @@ header #logo{
 }
 header nav{
     flex-basis: 25%;
+
 }
 header nav .topmenu{
     padding: 0px;
@@ -64,6 +67,7 @@ header nav .topmenu .link_nav{
 }
 header nav .topmenu .link_nav a{
     padding: 30px;
+    padding-top: 50px;
 }
 header nav .topmenu .link_nav a:hover{
     color: #0065FC;
@@ -71,9 +75,28 @@ header nav .topmenu .link_nav a:hover{
 }
 
 
-
 /* main */
+main{
+    max-width: 1339px;
+    margin: auto;
+}
 
+    /* section_search */
+main #section_search h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+main #section_search p{
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+main #section_search .search .filtres{
+    margin-block-start: 30px;
+}
+main #section_search .search .filtres label{
+    font-weight: bold;
+}
+    /* section_results */
 #section_results .bloc{
     display: flex;
 }
