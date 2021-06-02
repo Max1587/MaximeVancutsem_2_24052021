@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+header strong{
+    color: #0065FC;
+}
+
+header #logo{
+    flex-basis: 75%;
+}
+header nav{
+    flex-basis: 25%;
+
+}
+header nav .topmenu{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+header nav .topmenu .link_nav{
+    text-align: center;
+    padding: 0px;
+}
+header nav .topmenu .link_nav a{
+    padding: 30px;
+    padding-top: 50px;
+}
+header nav .topmenu .link_nav a:hover{
+    color: #0065FC;
+    border-top: #0065FC 1px solid;
+}

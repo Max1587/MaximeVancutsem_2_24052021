@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding-bottom: 1em;
+}
+footer #about{
+    flex-basis: 30%;
+    margin-left: 50px;
+}
+footer #hosting{
+    flex-basis: 30%;
+}
+footer #support{
+    flex-basis: 30%;
+}
+footer ul{
+    list-style-type: none;
+    padding-inline-start: 0em;
+}
+footer ul li{
+    margin-bottom: 0.6em;
+}
