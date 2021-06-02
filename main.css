@@ -15,9 +15,26 @@ main #section_search p{
 main #section_search .search .filtres{
     margin-block-start: 30px;
 }
-main #section_search .search .filtres label{
-    font-weight: bold;
+main #section_search .search .filtres .filters input{
+    display: none;
 }
+main #section_search .search .filtres .filters strong{
+    border-radius: 20px;
+    border: solid 2px #F2F2F2;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-right: 1.3em;
+}
+main #section_search .search .filtres .filters strong:hover{
+    border: solid 2px #0065FC;
+}
+main #section_search .search .filtres .filters strong i{
+    border-radius: 20px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 15px;
+}
+
     /* section_results */
 #section_results .bloc{
     display: flex;
@@ -65,6 +82,9 @@ main #section_search .search .filtres label{
     border-radius: 10px;
     box-shadow: 2px 2px 15px darkgrey;
 }
+#section_results .bloc #popularity .cardlist_popularity .card_popularity:hover{
+    box-shadow: 3px 3px 5px #0065FC;
+}
 #section_results .bloc #popularity img{
     width: 50%;
 }
@@ -86,6 +106,9 @@ main #section_search .search .filtres label{
     border-radius: 10px;
     box-shadow: 2px 2px 15px darkgrey;
     margin: 20px;
+}
+#section_activity .activity .card_activity:hover{
+    box-shadow: 3px 3px 5px #0065FC;
 }
 #section_activity .activity .card_activity a{
     display: flex;

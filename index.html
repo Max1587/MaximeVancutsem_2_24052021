@@ -40,26 +40,40 @@
                     <form method="post" action="search.php">
                         <label for="search" id="search">
                             <i class="fas fa-map-marker-alt"></i>
-                        </label> 
-                        <input type="search" placeholder="Marseille, France" id="search" />
-                        <input type="submit" value="Rechercher" />
+                         
+                            <input type="search" placeholder="Marseille, France" id="search" />
+                            <input type="submit" value="Rechercher" />
+                        </label>
                         <div class="filtres">
-                            <label for="filter" id="filter">Filtres</label> 
-                                <strong for="economique">
-                                    <i class="fas fa-money-bill-wave"></i>Economique
+                            <strong>Filtres</strong>
+                            <label for="economique" class="filters">
+                                <input type="checkbox" id="economique" class="filters" /> 
+                                <strong>
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    <span>Economique</span>
                                 </strong>
-                                <strong for="familial">
+                            </label>
+                            <label for="familial" class="filters">
+                                <input type="checkbox" id="familial" class="filters" /> 
+                                <strong>
                                     <i class="fas fa-child"></i>
-                                    Familial
+                                    <span>Familial</span>
                                 </strong>
-                                <strong for="romantique">
+                            </label>
+                            <label for="romantique" class="filters">
+                                <input type="checkbox" id="romantique" class="filters" /> 
+                                <strong>
                                     <i class="fas fa-heart"></i>
-                                    Romantique
+                                    <span>Romantique</span>
                                 </strong>
-                                <strong for="animaux_autorisés">
+                            </label>
+                            <label for="animaux_autorisés" class="filters">
+                                <input type="checkbox" id="animaux_autorisés" class="filters" /> 
+                                <strong>
                                     <i class="fas fa-dog"></i>
-                                    Animaux autorisés
+                                    <span>Animaux autorisés</span>
                                 </strong>
+                            </label>
                         </div>
                     </form>    
                 </div>
@@ -133,7 +147,7 @@
                     <div class="cardlist_popularity">
                         <div class="card_popularity">
                             <div class="image">
-                                <a><img src="images/host/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin" /></a>
+                                <a href="#"><img src="images/host/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin" /></a>
                             </div>
                             <div class="description">
                                 <a href="#">
@@ -145,7 +159,7 @@
                         
                         <div class="card_popularity">
                             <div class="image">
-                                <a><img src="images/host/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="au coeur de l'eau chambres d hote" /></a>
+                                <a href="#"><img src="images/host/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="au coeur de l'eau chambres d hote" /></a>
                             </div>
                             <div class="description">
                                 <a href="#">
@@ -157,7 +171,7 @@
     
                         <div class="card_popularity">
                             <div class="image">
-                                <img src="images/host/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel tout bleu et blanc" />
+                                <a href="#"><img src="images/host/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel tout bleu et blanc" /></a>
                             </div>
                             <div class="description">
                                 <a href="#">
