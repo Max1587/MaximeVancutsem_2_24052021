@@ -26,10 +26,9 @@
 
 body{
     font-family: "raleway", "Arial", "Helvetica", "sans-serif";
-    margin-right: 50px;
-    margin-left: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    max-width: 1440px;
 }
 
 a{ /* Liens par défaut (non survolés) */
@@ -43,7 +42,8 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 120px;
-    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 header strong{
     color: #0065FC;
@@ -77,8 +77,8 @@ header nav .topmenu .link_nav a:hover{
 
 /* main */
 main{
-    max-width: 1339px;
-    margin: auto;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
     /* section_search */
@@ -104,24 +104,46 @@ main #section_search .search .filtres label{
     background-color: #F2F2F2;
     border-radius: 10px;
     flex-basis: 75%;
+    margin-right: 20px;
+}
+#section_results .bloc #host_marseille h2{
+    margin-block-end: 0em;
+    padding-left: 40px;
 }
 #section_results .bloc #host_marseille .cardlist{
     display: flex;
     flex-wrap: wrap;
 }
 #section_results .bloc #host_marseille .cardlist .card{
-    flex-basis: 33.33%;
+    flex-basis: 27%;
+    margin: 30px;
     }
 #section_results .bloc #host_marseille .cardlist .card a img{
     width: 50%;
 }
-
-#popularity{
+#section_results .bloc #popularity{
     background-color: #F2F2F2;
     border-radius: 10px;
     flex-basis: 25%;
+    margin-left: 20px;
 }
-#popularity img{
+#section_results .bloc #popularity h2{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#section_results .bloc #popularity .cardlist_popularity{
+    margin: 30px;
+}
+#section_results .bloc #popularity .cardlist_popularity .card_popularity{
+    flex-basis: 27%;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px darkgrey;
+}
+#section_results .bloc #popularity img{
     width: 50%;
 }
 .card{
@@ -132,21 +154,46 @@ main #section_search .search .filtres label{
 .card:hover{
     box-shadow: 3px 3px 5px #0065FC;
 }
-.activity{
+
+    /* section activité */
+#section_activity .activity{
     display: flex;
 }
-.card_activity{
+#section_activity .activity .card_activity{
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 15px darkgrey;
+    margin: 20px;
 }
+#section_activity .activity .card_activity a{
+    display: flex;
+    flex-direction: column;
+}
+#section_activity .activity .card_activity img{
+    width: 50%;
+}
+
 /* footer */
 footer{
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
+    padding-bottom: 1em;
+}
+footer #about{
+    flex-basis: 30%;
+    margin-left: 50px;
+}
+footer #hosting{
+    flex-basis: 30%;
+}
+footer #support{
+    flex-basis: 30%;
 }
 footer ul{
     list-style-type: none;
+    padding-inline-start: 0em;
 }
-
+footer ul li{
+    margin-bottom: 0.6em;
+}
