@@ -58,6 +58,10 @@ main #section_search .search .filtres .filters strong i{
 }
 #section_results .bloc #host_marseille .cardlist .card{
     flex-basis: 27%;
+    height: 32%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #e2e2e2;
     }
 #section_results .bloc #host_marseille .cardlist .card a img{
     width: 50%;
@@ -82,18 +86,13 @@ main #section_search .search .filtres .filters strong i{
     margin: 30px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 15px darkgrey;
+    box-shadow: 10px 10px 15px #e2e2e2;
 }
 #section_results .bloc #popularity .cardlist_popularity .card_popularity:hover{
     box-shadow: 3px 3px 5px #0065FC;
 }
 #section_results .bloc #popularity img{
     width: 50%;
-}
-.card{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 15px darkgrey;
 }
 .card:hover{
     box-shadow: 3px 3px 5px #0065FC;
@@ -102,7 +101,7 @@ main #section_search .search .filtres .filters strong i{
     color: #0065FC;
 }
 .bloc .stars_none{
-    color: #F2F2F2;
+    color: #d9d9d9;
 }
 
     /* section activité */
@@ -112,17 +111,33 @@ main #section_search .search .filtres .filters strong i{
 #section_activity .activity .card_activity{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 15px darkgrey;
-    margin: 20px;
+    box-shadow: 10px 10px 15px #e2e2e2;
+}
+#section_activity .activity .card_activity2{
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+}
+#section_activity .activity .card_activityduo{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #e2e2e2;
 }
 #section_activity .activity .card_activity:hover{
     box-shadow: 3px 3px 5px #0065FC;
+    
 }
 #section_activity .activity .card_activity a{
     display: flex;
     flex-direction: column;
 }
+#section_activity .activity .card_activityduo a{
+    display: flex;
+    flex-direction: column;
+}
 #section_activity .activity .card_activity img{
+    width: 50%;
+}
+#section_activity .activity .card_activityduo img{
     width: 50%;
 }
 #section_activity .activity .card_activity a strong{

@@ -3,6 +3,7 @@ footer{
     justify-content: space-around;
     background-color: #F2F2F2;
     padding-bottom: 1em;
+    margin-top: 30px;
 }
 footer #about{
     flex-basis: 30%;
