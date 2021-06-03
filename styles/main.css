@@ -98,6 +98,12 @@ main #section_search .search .filtres .filters strong i{
 .card:hover{
     box-shadow: 3px 3px 5px #0065FC;
 }
+.bloc .stars{
+    color: #0065FC;
+}
+.bloc .stars_none{
+    color: #F2F2F2;
+}
 
     /* section activité */
 #section_activity .activity{
