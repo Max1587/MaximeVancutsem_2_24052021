@@ -23,7 +23,15 @@ main #section_search .search .filtres .filters strong{
     border: solid 2px #F2F2F2;
     padding-top: 13px;
     padding-bottom: 13px;
-    margin-right: 1.3em;
+    margin-right: 2em; 
+}
+main #section_search .search .filtres .filters strong span{
+    padding-right: 1em;
+    padding-right: 1em;
+}
+main #section_search .search .filtres .filters input:checked + strong{
+    border: solid 2px #0065fc;
+    background-color: #DEEBFF;
 }
 main #section_search .search .filtres .filters strong:hover{
     border: solid 2px #0065fc;
@@ -111,6 +119,9 @@ main #section_search .search .filtres .filters strong i{
 }
 .bloc .stars_none{
     color: #d9d9d9;
+}
+.bloc #host_marseille h3{
+    padding-left: 4.5%;
 }
 
     /* section activité */
