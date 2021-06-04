@@ -26,18 +26,27 @@ main #section_search .search .filtres .filters strong{
     margin-right: 1.3em;
 }
 main #section_search .search .filtres .filters strong:hover{
-    border: solid 2px #0065FC;
+    border: solid 2px #0065fc;
 }
 main #section_search .search .filtres .filters strong i{
     border-radius: 50px;
     background-color: #DEEBFF;
-    color: #0065FC;
-    padding: 15px;
+    color: #0065fc;
+    padding: 13px;
 }
 
     /* section_results */
 #section_results .bloc{
     display: flex;
+}
+#section_results p i{
+    color: #0065fc;
+    border-radius: 50px;
+    border: solid 2px #F2F2F2;
+    width: 18px;
+    height: 18px;
+    font-size: 0.83em;
+    text-align: center;
 }
 #section_results .bloc #host_marseille{
     background-color: #F2F2F2;
