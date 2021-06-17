@@ -8,14 +8,13 @@ header{
 }
 header strong{
     color: #0065FC;
+    font-size: 1em;
 }
-
 header #logo{
     flex-basis: 75%;
 }
 header nav{
     flex-basis: 25%;
-
 }
 header nav .topmenu{
     padding: 0px;
@@ -28,9 +27,9 @@ header nav .topmenu .link_nav{
 }
 header nav .topmenu .link_nav a{
     padding: 30px;
-    padding-top: 50px;
+    padding-top: 48px;
 }
 header nav .topmenu .link_nav a:hover{
     color: #0065FC;
-    border-top: #0065FC 1px solid;
+    border-top: #0065FC 3px solid;
 }

@@ -1,13 +1,19 @@
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
-    padding-bottom: 1em;
-    margin-top: 30px;
+    padding-bottom: 2em;
+    margin-top: 2.5em;
+    padding-top: 3em;
+    padding-right: 6em;
+}
+footer h3{
+    margin-block-end: 1.3em;
+    font-size: 1.1rem;
 }
 footer #about{
     flex-basis: 30%;
-    margin-left: 50px;
+    margin-left: 1%;
 }
 footer #hosting{
     flex-basis: 30%;
@@ -20,7 +26,7 @@ footer ul{
     padding-inline-start: 0em;
 }
 footer ul li{
-    margin-bottom: 0.6em;
+    margin-bottom: 0.7em;
 }
 footer ul li a:hover{
     color: #0065BF;
