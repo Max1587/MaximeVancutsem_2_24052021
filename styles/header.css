@@ -29,7 +29,48 @@ header nav .topmenu .link_nav a{
     padding: 30px;
     padding-top: 48px;
 }
+header nav .topmenu .link_nav.last a:hover{
+    border-top: 0px;
+}
 header nav .topmenu .link_nav a:hover{
     color: #0065FC;
     border-top: #0065FC 3px solid;
+}
+header nav .topmenu .link_nav.active a{
+    color: #0065FC;
+    border-top: #0065FC 3px solid;
+}
+
+/** version style mobile **/
+
+@media (max-width:767px){
+    header{
+        display: block;
+    }
+    header nav .topmenu{
+        display: block;
+    }
+    header nav .topmenu .link_nav{
+        float: left;
+        width: 50%;
+    }
+    header nav .topmenu .link_nav a{
+        padding: 5px;
+        display: block;
+    }
+    
+    header nav .topmenu .link_nav.active a{
+        border-bottom: 3px solid #0065FC;
+        border-top: 0px;
+    }
+    header nav .topmenu .link_nav a:hover{
+        color: #0065FC;
+        border-bottom: #0065FC 3px solid;
+        border-top: 0px;
+    }
+    header nav .topmenu .link_nav.last{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
 }
