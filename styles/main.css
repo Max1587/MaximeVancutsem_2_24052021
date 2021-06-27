@@ -16,7 +16,7 @@ main #section_search p{
 }
 main #section_search .search .labelsearch{
     display: flex;
-    width: 400px;
+    width: 375px;
 }
 main #section_search .search .labelsearch i{
     display: flex;
@@ -335,13 +335,24 @@ main #section_search .search .filtres .filters strong i{
 }
 
 @media (max-width:767px){
+    
     .largeur-max{
         max-width: 1330px;
         margin: auto;
     }
+    main{
+        margin-left: 25px;
+    }
     main #section_search{
-        margin-top: 25px;
+        margin-top: 35px;
         margin-bottom: 25px;
+        margin-left: 25px;
+    }
+    main #section_search h1{
+        width: 70%;
+    }
+    main #section_search p{
+        margin-bottom: 35px;
     }
     main #section_search .search .labelsearch span.buttonsearch{
         display: block;
@@ -349,61 +360,65 @@ main #section_search .search .filtres .filters strong i{
     main #section_search .search .labelsearch .buttonsearch{
         display: none;
     }
-    #section_results .bloc{
+    main #section_search .search .labelsearch .filtres strong{
+        display: block;
+    }
+
+    main #section_results .bloc{
         flex-direction: column-reverse;
     }
-    #section_results .bloc #popularity{
+    main #section_results .bloc #popularity{
         margin-left: 0px;
     }
-    #section_results .bloc #host_marseille{
+    main #section_results .bloc #host_marseille{
         margin-right: 0px;
         margin-top: 25px;
         background: none;
     }
-    #section_results .bloc #host_marseille .cardlist_host{
+    main #section_results .bloc #host_marseille .cardlist_host{
         align-content: start;
         justify-content: start;
     }
-    #section_results .bloc #host_marseille h2{
+    main #section_results .bloc #host_marseille h2{
         margin-bottom: 25px;
         margin-left: 7px;
     }
-    #section_results .bloc #host_marseille .cardlist_host .card{
+    main #section_results .bloc #host_marseille .cardlist_host .card{
         margin-bottom: 25px;
         max-width: 386px;
     }
-    #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
+    main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
         max-width: 386px;
     }
-    #section_results .bloc #host_marseille .show-more {
+    main #section_results .bloc #host_marseille .show-more {
         margin-left: 10px;
     }
-    #section_activity .activity{
+    main #section_activity .activity{
         display: block;
     }
-    #section_activity .activity .card_activity {
+    main #section_activity .activity .card_activity {
         max-width: 386px;
         max-height: 265px;
         min-height: initial;
         height: 210px;
     }
-    #section_activity .activity .card_activity a{
+    main #section_activity .activity .card_activity a{
         height: 175px;
     }
-    #section_activity .activity .card_activity img {
+    main #section_activity .activity .card_activity img {
         bottom: 0px;
         left: 0px;
         height: 100%;
         width: 100%;
     }
-    #section_activity .activity .card_activity2{
+    main #section_activity .activity .card_activity2{
         min-height: initial;
         max-height: initial;
     }
-    #section_activity .activity .card_activityduo{
+    main #section_activity .activity .card_activityduo{
         height: 175px;
     }
-    #section_activity .activity .card_activity2.last{
+    main #section_activity .activity .card_activity2.last{
         height: initial;
         max-height: initial;
         min-height: initial;    
