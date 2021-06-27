@@ -54,9 +54,11 @@ header nav .topmenu .link_nav.active a{
     header #logo img{
         margin-left: 20px;
         margin-top: 20px;
+        width: 100px;
     }
     header nav .topmenu{
         display: block;
+        font-size: 1.3rem
     }
     header nav .topmenu .link_nav{
         float: left;
