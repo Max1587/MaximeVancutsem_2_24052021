@@ -360,8 +360,11 @@ main #section_search .search .filtres .filters strong i{
     main #section_search .search .labelsearch .buttonsearch{
         display: none;
     }
-    main #section_search .search .labelsearch .filtres strong{
+    main #section_search .search .filtres strong{
         display: block;
+    }
+    main #section_search .search .filtres .filters{
+        display: inline-flex;
     }
 
     main #section_results .bloc{
@@ -369,6 +372,7 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_results .bloc #popularity{
         margin-left: 0px;
+        border-radius: initial;
     }
     main #section_results .bloc #host_marseille{
         margin-right: 0px;
@@ -381,17 +385,21 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_results .bloc #host_marseille h2{
         margin-bottom: 25px;
-        margin-left: 7px;
+        margin-left: 40px;
     }
     main #section_results .bloc #host_marseille .cardlist_host .card{
         margin-bottom: 25px;
         max-width: 386px;
+        margin-left: 40px;
     }
     main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
         max-width: 386px;
     }
     main #section_results .bloc #host_marseille .show-more {
-        margin-left: 10px;
+        margin-left: 40px;
+    }
+    main #section_activity{
+        margin-left: 40px;
     }
     main #section_activity .activity{
         display: block;
