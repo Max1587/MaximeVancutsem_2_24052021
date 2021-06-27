@@ -342,16 +342,13 @@ main #section_search .search .filtres .filters strong i{
         max-width: 1330px;
         margin: auto;
     }
-    main{
-        margin-left: 25px;
-    }
     main #section_search{
         margin-top: 35px;
         margin-bottom: 25px;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     main #section_search h1{
-        width: 70%;
+        width: 100%;
     }
     main #section_search p{
         margin-bottom: 35px;
@@ -369,17 +366,24 @@ main #section_search .search .filtres .filters strong i{
         display: inline-flex;
     }
 
+    main #section_results p{
+        margin-left: 15px;
+    }
     main #section_results .bloc{
         flex-direction: column-reverse;
     }
     main #section_results .bloc #popularity{
-        margin-left: 0px;
+        margin-left: -15px;
         border-radius: initial;
+    }
+    main #section_results .bloc #popularity p{
+        margin-left: auto;
     }
     main #section_results .bloc #host_marseille{
         margin-right: 0px;
         margin-top: 25px;
         background: none;
+        margin-left: -15px;
     }
     main #section_results .bloc #host_marseille .cardlist_host{
         align-content: start;
@@ -387,21 +391,21 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_results .bloc #host_marseille h2{
         margin-bottom: 25px;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     main #section_results .bloc #host_marseille .cardlist_host .card{
         margin-bottom: 25px;
         max-width: 386px;
-        margin-left: 40px;
+        margin-left: 25px;
     }
     main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
         max-width: 386px;
     }
     main #section_results .bloc #host_marseille .show-more {
-        margin-left: 40px;
+        margin-left: 30px;
     }
     main #section_activity{
-        margin-left: 40px;
+        margin-left: 15px;
     }
     main #section_activity .activity{
         display: block;
