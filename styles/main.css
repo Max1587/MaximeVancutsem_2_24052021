@@ -38,6 +38,7 @@ main #section_search .search .labelsearch .inputsearch{
     width: 230px;
     padding-left: 20px;
     border: solid 1px #F2F2F2;
+    -webkit-appearance: none;
 }
 main #section_search .search .labelsearch .buttonsearch{
     height: 50px;
@@ -50,6 +51,7 @@ main #section_search .search .labelsearch .buttonsearch{
     font-weight: bold;
     font-size: 1rem;
     font-family: "raleway_bold";
+    -webkit-appearance: none;
 }
 main #section_search .search .labelsearch span.buttonsearch{
     display: none;
