@@ -31,3 +31,30 @@ footer ul li{
 footer ul li a:hover{
     color: #0065BF;
 }
+
+/** version style mobile **/
+
+@media (max-width:767px){
+    footer{
+        padding-top: 1em;
+    }
+    footer .largeur-max{
+        padding-left: 40px;
+        flex-direction: column;
+        padding-top: 1.5em;
+    }
+    footer h3{
+        margin-top: 15px;
+    }
+/*
+    footer #about{
+        flex-basis: 80%;
+    }
+    footer #hosting{
+        flex-basis: 80%;
+    }
+    footer #support{
+        flex-basis: 80%;
+    }
+*/
+}
