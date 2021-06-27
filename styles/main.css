@@ -338,8 +338,6 @@ main #section_search .search .filtres .filters strong i{
     .largeur-max{
         max-width: 1330px;
         margin: auto;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     main #section_search{
         margin-top: 25px;
