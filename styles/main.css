@@ -361,9 +361,15 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_search .search .filtres strong{
         display: block;
+        margin-bottom: 12px;
     }
     main #section_search .search .filtres .filters{
         display: inline-flex;
+    }
+    main #section_search .search .filtres .filters strong{
+        padding-top: 1px; 
+        padding-bottom: 1px; 
+        margin-right: 0em;
     }
 
     main #section_results p{
@@ -414,7 +420,12 @@ main #section_search .search .filtres .filters strong i{
         max-width: 386px;
         max-height: 265px;
         min-height: initial;
-        height: 210px;
+        height: 230px;
+    }
+    main #section_activity .activity .card_activity h3{
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
     }
     main #section_activity .activity .card_activity a{
         height: 175px;
@@ -428,6 +439,7 @@ main #section_search .search .filtres .filters strong i{
     main #section_activity .activity .card_activity2{
         min-height: initial;
         max-height: initial;
+        max-width: 386px;
     }
     main #section_activity .activity .card_activityduo{
         height: 175px;
