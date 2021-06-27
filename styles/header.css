@@ -46,6 +46,14 @@ header nav .topmenu .link_nav.active a{
 @media (max-width:767px){
     header{
         display: block;
+        margin-bottom: 20px;
+    }
+    .largeur-max{
+        margin-bottom: 20px;
+    }
+    header #logo img{
+        margin-left: 20px;
+        margin-top: 20px;
     }
     header nav .topmenu{
         display: block;
@@ -72,5 +80,7 @@ header nav .topmenu .link_nav.active a{
         position: absolute;
         top: 15px;
         right: 0;
+        margin-top: 20px;
+        margin-right: -45px;
     }
 }
