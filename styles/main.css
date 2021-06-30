@@ -448,9 +448,10 @@ main #section_search .search .filtres .filters strong i{
         display: block;
     }
     main #section_activity .activity .card_activity {
-        max-width: 386px;
+        max-width: 97%;
         height: 192px;
         margin-bottom: 25px;
+        width: 97%;
     }
     main #section_activity .activity .card_activity h3{
         position: relative;
@@ -473,7 +474,8 @@ main #section_search .search .filtres .filters strong i{
     main #section_activity .activity .card_activity2{
         min-height: initial;
         max-height: initial;
-        max-width: 386px;
+        max-width: 97%;
+        width: 97%;
     }
     main #section_activity .activity .card_activityduo{
         height: 182px;
@@ -547,9 +549,46 @@ main #section_search .search .filtres .filters strong i{
         max-height: initial;
         min-height: initial;    
     }
+    #section_results .bloc #popularity .cardlist_popularity .card_popularity .image a img{
+        left: 0px;
+    }
+    main #section_results .bloc #host_marseille .cardlist_host .card{
+        width: 94%;
+        max-width: 94%;
+        margin-left: 25px;
+    }
+    main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
+        max-width: initial;
+        margin: auto;
+    }
+    #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc img{
+        width: 100%;
+    }
+    #section_results .bloc #popularity h2{
+        padding-left: 30px;
+    }
+    #section_results .bloc #popularity .cardlist_popularity{
+        margin: 0px 0px 0px 20px;
+    }
+}
+@media (max-width:767px) and (orientation: landscape){
+    #section_results .bloc #popularity .cardlist_popularity .card_popularity .image a img{
+        left: 0px;
+    }
+    main #section_results .bloc #host_marseille .cardlist_host .card{
+        max-width: 94%;
+        margin-left: 25px;
+    }
+    main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
+        max-width: 97%;
+        margin: auto;
+    }
+    main #section_activity{
+        margin-left: 60px;
+    }
 }
 
-@media (min-width:768px) and (max-width:1040px){
+@media (min-width:768px) and (max-width:1024px){
     main #section_search .search .filtres strong{
         display: block;
         margin-bottom: 12px;
@@ -560,14 +599,36 @@ main #section_search .search .filtres .filters strong i{
     #section_results .bloc{
         flex-direction: column-reverse;
     }
+    #section_results .bloc #popularity {
+        flex-basis: 100%;
+        margin-left: 0px;
+    }
     #section_results .bloc #popularity .cardlist_popularity{
-        display: flex;
-        flex-wrap: wrap;
+        margin-top: 30px;
     }
     #section_results .bloc #popularity .cardlist_popularity .card_popularity{
         flex-basis: 25%;
     }
-    #section_results .bloc #popularity .cardlist_popularity .card_popularity:last-child{
-        flex-basis: 625px;
+    #section_results .bloc #host_marseille{
+        flex-basis: 100%;
+        margin-right: 0px;
+    }
+    #section_results .bloc #host_marseille h2 {
+        flex-basis: 97%;
+        margin: 0px;
+    }
+    #section_results .bloc #host_marseille .cardlist_host{
+        height: 820px;
+    }
+    #section_results .bloc #host_marseille .cardlist_host .card{
+        width: 48%;
+        max-width: 48%;
+    }
+    #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
+        width: 100%;
+        max-width: 100%;
+    }
+    #section_activity .activity{
+        flex-wrap: wrap;
     }
 }
