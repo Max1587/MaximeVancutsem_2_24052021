@@ -125,6 +125,8 @@ main #section_search .search .filtres .filters strong i{
     flex-basis: 96%;
     margin: 0px;
     font-size: 1.2rem;
+    position: relative;
+    top: 35px;
 }
 #section_results .bloc #host_marseille h2{
     flex-basis: 95%;
@@ -141,16 +143,16 @@ main #section_search .search .filtres .filters strong i{
     background-color: white;
     border-radius: var(--border-radius-value);
     box-shadow: 10px 10px 15px #e2e2e2;
-    max-width: 285px;
-    min-width: 275px;
+    max-width: 270px;
+    min-width: 260px;
     height: 220px;
 }
 #section_results .bloc #host_marseille .cardlist_host .card .logements{
     display: block;
-    padding: 7px;
+    padding: 5px;
 }
 #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
-    max-width: 260px;
+    max-width: 270px;
     height: 145px;
     overflow: hidden;
     border-top-left-radius: var(--border-radius-value);
@@ -164,7 +166,7 @@ main #section_search .search .filtres .filters strong i{
     margin-top: -15px;
 }
 #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc img{
-    width: 100%;
+    width: 102%;
     height: 82%;
     object-fit: cover;
 }
@@ -229,7 +231,7 @@ main #section_search .search .filtres .filters strong i{
     box-shadow: 3px 3px 5px #0065FC;
 }
 
-.card:hover{
+#section_results .bloc #host_marseille .cardlist_host .card:hover{
     box-shadow: 3px 3px 5px #0065FC;
 }
 .bloc .stars{
@@ -255,82 +257,108 @@ main #section_search .search .filtres .filters strong i{
     box-shadow: 10px 10px 15px #e2e2e2;
     max-width: 295px;
     min-width: 250px;
-    min-height: 480px;
-    max-height: 490px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: fit-content;
+}
+#section_activity .activity .card_activity .image_activity{
+    min-height: 400px;
+    max-height: 400px;
     overflow: hidden;
 }
 #section_activity .activity .card_activity2{
     max-width: 295px;
     min-width: 250px;
-    max-height: 480px;
-    min-height: 490px;
+    min-height: 405px;
     overflow: hidden;
+    max-height: 452px;
 }
-#section_activity .activity .card_activity2.last{
-    height: calc(58% - 45px);
-    margin-bottom: 36px;
+#section_activity .activity .card_activity2.last .card_activityduo.NDG{
+    height: 42%;
+}
+#section_activity .activity .card_activity2.last .card_activityduo.NDG .image_activity{
+    overflow: hidden;
+    height: 145px;
 }
 #section_activity .activity .card_activity2.last .card_activityduo img{
     bottom: 0%;
 }
 #section_activity .activity .card_activity2.last .card_activityduo:last-child{
-    height: 42%;
+    height: 47%;
 }
 #section_activity .activity .card_activity2.last .card_activityduo:last-child img{
     bottom: 10px;
 }
 #section_activity .activity .card_activity2.last .card_activityduo:last-child h3{
-    padding-top: 5px;
+    padding-top: 15px;
 }
 #section_activity .activity .card_activityduo{
     background-color: white;
     border-radius: var(--border-radius-value);
     padding-bottom: 10px;
-    border: 1px solid #F2F2F2;
-    box-shadow: 1px 2px 10px #e2e2e2;
-    height: calc(70% - 45px);
     overflow: hidden;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     position: relative;
+    box-shadow: 10px 10px 15px #e2e2e2;
+    border: 1px solid #ccc;
 }
 #section_activity .activity .card_activityduo:last-child{
-    height: 30%;
     margin-bottom: 0px;
+    padding: 0px;
 }
 #section_activity .activity .card_activityduo:last-child .title-activity{
-    bottom: 6px;
+    position: initial;
 }
 #section_activity .activity .card_activity:hover{
     box-shadow: 3px 3px 5px #0065FC;
-    
+}
+#section_activity .activity .card_activity2 .card_activityduo:hover{
+    box-shadow: 3px 3px 5px #0065FC;
 }
 #section_activity .activity .card_activity a{
     display: block;
     height: 100%;
 }
 #section_activity .activity .card_activityduo a{
-    display: block;
-    height: 100%;
+        display: block;
+        height: 240px;
+    }
+#section_activity .activity  .card_activityduo.FP .image_activity{
+    height: 82%;
     overflow: hidden;
 }
+#section_activity .activity .card_activityduo:last-child a{
+    height: 162px;
+    box-shadow: 10px 10px 15px #e2e2e2;
+    border: 1px solid #ccc;
+}
+#section_activity .activity .card_activity2.last .card_activityduo:last-child a {
+    height: 228px;
+}
+#section_activity .activity .card_activityduo:last-child .image_activity{
+    height: 71%;
+    overflow: hidden;
+}
+#section_activity .activity .card_activityduo:last-child img{
+    bottom: 15px;
+}
 #section_activity .activity .card_activity img{
-    height: 93%;
     position: relative;
-    left: -198px;
+    left: -212px;
+}
+#section_activity .activity .card_activity .image_activity.PNC img{
+    left: -150px;
+}
+#section_activity .activity .card_activity .title-activity{
+    padding: 15px 15px;
 }
 #section_activity .activity .card_activityduo img{
     width: 100%;
     position: relative;
-    bottom: 12%;
+    bottom:45%;
 }
 #section_activity .activity .card_activityduo .title-activity{
-    position: absolute;
-    background-color: #fff;
-    width: calc(100% - 15px);
-    bottom: 0px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 15px 15px;
 }
 :root{
     --border-radius-value: 15px;
@@ -409,7 +437,10 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_results .bloc #host_marseille .show-more {
         margin-left: 30px;
+        top: 0px;
     }
+
+
     main #section_activity{
         margin-left: 15px;
     }
@@ -444,6 +475,11 @@ main #section_search .search .filtres .filters strong i{
     main #section_activity .activity .card_activityduo{
         height: 175px;
     }
+    #section_activity .activity .card_activityduo img {
+        width: 100%;
+        position: relative;
+        bottom: 100%;
+    }
     main #section_activity .activity .card_activity2.last{
         height: initial;
         max-height: initial;
@@ -451,3 +487,25 @@ main #section_search .search .filtres .filters strong i{
     }
 }
 
+@media (min-width:768px) and (max-width:1040px){
+    main #section_search .search .filtres strong{
+        display: block;
+        margin-bottom: 12px;
+    }
+    main #section_search .search .filtres .filters{
+        display: inline-flex;
+    }
+    #section_results .bloc{
+        flex-direction: column-reverse;
+    }
+    #section_results .bloc #popularity .cardlist_popularity{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section_results .bloc #popularity .cardlist_popularity .card_popularity{
+        flex-basis: 25%;
+    }
+    #section_results .bloc #popularity .cardlist_popularity .card_popularity:last-child{
+        flex-basis: 625px;
+    }
+}
