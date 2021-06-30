@@ -429,8 +429,6 @@ main #section_search .search .filtres .filters strong i{
         margin-left: 30px;
         top: 0px;
     }
-
-
     main #section_activity{
         margin-left: 15px;
     }
@@ -556,15 +554,21 @@ main #section_search .search .filtres .filters strong i{
     }
     #section_results .bloc #popularity h2{
         padding-left: 30px;
+        padding-right: 13px;
+        margin-bottom: 15px;
     }
     #section_results .bloc #popularity .cardlist_popularity{
         margin: 0px 10px 0px 20px;
     }
 }
 @media (max-width:767px) and (orientation: landscape){
+    #section_results .bloc #popularity h2 {
+        padding-right: 25px;
+    }
     #section_results .bloc #popularity .cardlist_popularity{
         margin: 0px 0px 0px 20px;
     }
+    
     #section_results .bloc #popularity .cardlist_popularity .card_popularity{
         margin-right: 25px;
     }
@@ -578,6 +582,24 @@ main #section_search .search .filtres .filters strong i{
     main #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
         max-width: 97%;
         margin: auto;
+    }
+    main #section_activity .activity .card_activity img{
+        bottom: 115px;
+    }
+    #section_activity .activity .card_activityduo img{
+        bottom:220%
+    }
+    #section_activity .activity .card_activityduo:last-child img{
+        bottom: 110px;
+    }
+    #section_activity .activity .card_activity .image_activity.PNC img {
+        bottom: 155px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo img {
+        bottom: 40%;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child img {
+        bottom: 118px;
     }
 }
 
