@@ -454,11 +454,11 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_activity .activity .card_activity h3{
         position: relative;
-        bottom: 260px;
+        bottom: 259px;
         background: white;
     }
     main #section_activity .activity .card_activity a{
-        height: 192px;
+        height: 190px;
     }
     #section_activity .activity .card_activity .image_activity {
         position: relative;
@@ -508,6 +508,40 @@ main #section_search .search .filtres .filters strong i{
         position: relative;
         top: -35px;
     }
+    #section_activity .activity .card_activity .image_activity.PNC {
+        position: relative;
+        bottom: 26px;
+        left: 150px;
+        overflow: initial;
+    }
+    #section_activity .activity .card_activity:last-child .title-activity {
+        position: relative;
+        bottom: 100px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo.NDG{
+        height: 194px;
+    }
+    #section_activity .activity .card_activityduo.NDG .title-activity {
+        bottom: 0px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child{
+        height: 192px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child a{
+        height: 192px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child a .image_activity{
+        position: relative;
+        bottom: 23px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child img {
+        bottom: 10px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child h3{
+        position: relative;
+        top: -37px;
+    }
+
     main #section_activity .activity .card_activity2.last{
         height: initial;
         max-height: initial;
