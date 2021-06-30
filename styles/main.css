@@ -583,9 +583,6 @@ main #section_search .search .filtres .filters strong i{
         max-width: 97%;
         margin: auto;
     }
-    main #section_activity{
-        margin-left: 60px;
-    }
 }
 
 @media (min-width:768px) and (max-width:1024px){
