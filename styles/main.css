@@ -465,7 +465,7 @@ main #section_search .search .filtres .filters strong i{
         bottom: 32px;
     }
     main #section_activity .activity .card_activity img {
-        bottom: 25px;
+        bottom: -5px;
         left: 0px;
         height: 100%;
         width: 100%;
@@ -480,6 +480,7 @@ main #section_search .search .filtres .filters strong i{
     }
     #section_activity .activity .card_activityduo a{
         height: 216px;
+        margin-bottom: 25px;
     }
     #section_activity .activity .card_activityduo img {
         width: 100%;
@@ -490,6 +491,22 @@ main #section_search .search .filtres .filters strong i{
         position: relative;
         bottom: 40px;
         background-color: white;
+    }
+    #section_activity .activity .card_activityduo:last-child {
+        margin-bottom: 25px;
+        height: 192px;
+    }
+    #section_activity .activity .card_activityduo:last-child a {
+        height: 194px;
+    }
+    #section_activity .activity .card_activityduo:last-child .image_activity {
+        height: 91%;
+        position: relative;
+        bottom: 5px;
+    }
+    #section_activity .activity .card_activityduo:last-child .title-activity {
+        position: relative;
+        top: -35px;
     }
     main #section_activity .activity .card_activity2.last{
         height: initial;
