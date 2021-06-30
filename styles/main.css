@@ -586,12 +586,14 @@ main #section_search .search .filtres .filters strong i{
 }
 
 @media (min-width:768px) and (max-width:1024px){
-    main #section_search .search .filtres strong{
-        display: block;
-        margin-bottom: 12px;
-    }
+    
     main #section_search .search .filtres .filters{
         display: inline-flex;
+    }
+    main #section_search .search .filtres .filters strong{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 15px;
     }
     #section_results .bloc{
         flex-direction: column-reverse;
@@ -627,5 +629,32 @@ main #section_search .search .filtres .filters strong i{
     }
     #section_activity .activity{
         flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #section_activity .activity .card_activity{
+        max-width: 47%;
+        width: 47%;
+        margin-bottom: 30px;
+    }
+    #section_activity .activity .card_activity2{
+        max-width: 47%;
+        width: 47%; 
+    }
+    #section_activity .activity .card_activityduo img{
+        bottom: 70%;
+    }
+    #section_activity .activity .card_activityduo:last-child img {
+        bottom: 35%;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) and (orientation: landscape){
+    #section_activity .activity .card_activityduo img{
+        bottom: 100%;
+    }
+    #section_activity .activity .card_activityduo:last-child img {
+        bottom: 80px;
+    }
+    #section_activity .activity .card_activity2.last .card_activityduo:last-child img {
+        bottom: 75px;
     }
 }

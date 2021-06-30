@@ -32,8 +32,6 @@ footer ul li a:hover{
     color: #0065BF;
 }
 
-/** version style mobile **/
-
 @media (max-width:767px){
     footer{
         padding-top: 1em;
@@ -46,15 +44,10 @@ footer ul li a:hover{
     footer h3{
         margin-top: 15px;
     }
-/*
-    footer #about{
-        flex-basis: 80%;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    footer .largeur-max{
+        justify-content: space-between;
     }
-    footer #hosting{
-        flex-basis: 80%;
-    }
-    footer #support{
-        flex-basis: 80%;
-    }
-*/
 }
