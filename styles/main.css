@@ -450,6 +450,7 @@ main #section_search .search .filtres .filters strong i{
     main #section_activity .activity .card_activity {
         max-width: 386px;
         height: 192px;
+        margin-bottom: 25px;
     }
     main #section_activity .activity .card_activity h3{
         position: relative;
@@ -475,12 +476,20 @@ main #section_search .search .filtres .filters strong i{
         max-width: 386px;
     }
     main #section_activity .activity .card_activityduo{
-        height: 175px;
+        height: 182px;
+    }
+    #section_activity .activity .card_activityduo a{
+        height: 216px;
     }
     #section_activity .activity .card_activityduo img {
         width: 100%;
         position: relative;
         bottom: 100%;
+    }
+    #section_activity .activity .card_activityduo .title-activity{
+        position: relative;
+        bottom: 40px;
+        background-color: white;
     }
     main #section_activity .activity .card_activity2.last{
         height: initial;
