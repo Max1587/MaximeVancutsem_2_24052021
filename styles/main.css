@@ -570,6 +570,9 @@ main #section_search .search .filtres .filters strong i{
     }
 }
 @media (max-width:767px) and (orientation: landscape){
+    #section_results .bloc #popularity .cardlist_popularity .card_popularity{
+        margin-right: 25px;
+    }
     #section_results .bloc #popularity .cardlist_popularity .card_popularity .image a img{
         left: 0px;
     }
