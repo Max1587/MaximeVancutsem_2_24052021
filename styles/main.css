@@ -449,20 +449,22 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_activity .activity .card_activity {
         max-width: 386px;
-        max-height: 265px;
-        min-height: initial;
-        height: 230px;
+        height: 192px;
     }
     main #section_activity .activity .card_activity h3{
-        padding-bottom: 15px;
-        padding-top: 15px;
-        padding-left: 15px;
+        position: relative;
+        bottom: 260px;
+        background: white;
     }
     main #section_activity .activity .card_activity a{
-        height: 175px;
+        height: 192px;
+    }
+    #section_activity .activity .card_activity .image_activity {
+        position: relative;
+        bottom: 32px;
     }
     main #section_activity .activity .card_activity img {
-        bottom: 0px;
+        bottom: 25px;
         left: 0px;
         height: 100%;
         width: 100%;
