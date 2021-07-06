@@ -9,8 +9,7 @@
 
 body{
     font-family: "raleway", "Arial", "Helvetica", "sans-serif";
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 14px;
     margin: 0px;
 }
 h2, h1, h3, strong{
