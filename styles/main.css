@@ -6,7 +6,6 @@
 /* section_search */
 main #section_search .search .labelsearch{
     display: flex;
-    width: 375px;
 }
 main #section_search .search .labelsearch i{
     display: flex;
@@ -25,7 +24,6 @@ main #section_search .search .labelsearch ::placeholder{
 }
 main #section_search .search .labelsearch .inputsearch{
     height: 50px;
-    width: 230px;
     padding-left: 20px;
     border: solid 1px #F2F2F2;
     -webkit-appearance: none;
@@ -140,6 +138,7 @@ main #section_search .search .filtres .filters strong i{
 #section_results .bloc #host_marseille .cardlist_host .card .logements{
     display: block;
     padding: 5px;
+    height: 210px;
 }
 #section_results .bloc #host_marseille .cardlist_host .card .logements .img-desc{
     max-width: 270px;
@@ -384,6 +383,9 @@ main #section_search .search .filtres .filters strong i{
     main #section_search .search .filtres .filters{
         display: inline-flex;
     }
+    main #section_search .search .filtres .filters:last-child{
+        width: 70%;
+    }
     main #section_search .search .filtres .filters strong{
         padding-top: 1px; 
         padding-bottom: 1px; 
@@ -435,7 +437,7 @@ main #section_search .search .filtres .filters strong i{
     }
     main #section_activity .activity .card_activity h3{
         position: relative;
-        bottom: 259px;
+        bottom: 256px;
         background: white;
     }
     main #section_activity .activity .card_activity a{
