@@ -218,6 +218,7 @@ main #section_search .search .filtres .filters strong i{
 
 #section_results .bloc #popularity .cardlist_popularity .card_popularity:hover{
     box-shadow: 3px 3px 5px #0065FC;
+    cursor: pointer;
 }
 
 #section_results .bloc #host_marseille .cardlist_host .card:hover{
