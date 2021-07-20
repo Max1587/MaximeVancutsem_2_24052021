@@ -179,8 +179,10 @@ main #section_search .search .filtres .filters strong i{
     background-color: white;
     border-radius: var(--border-radius-value);
     box-shadow: 10px 10px 15px #e2e2e2;
-    display: flex;
     margin-bottom: 30px;
+}
+#section_results .bloc #popularity .cardlist_popularity .card_popularity .link_card{
+    display: flex;
     padding: 10px;
 }
 #section_results .bloc #popularity .cardlist_popularity .card_popularity .image{
@@ -189,20 +191,20 @@ main #section_search .search .filtres .filters strong i{
     border-bottom-left-radius: var(--border-radius-value);
     overflow: hidden;
 }
-#section_results .bloc #popularity .cardlist_popularity .card_popularity .image a{
+#section_results .bloc #popularity .cardlist_popularity .card_popularity .image .pop{
     display: block;
     width: 220px;
     height: 245px;
     overflow: hidden;
     height: 145px;
 }
-#section_results .bloc #popularity .cardlist_popularity .card_popularity .image a img{
+#section_results .bloc #popularity .cardlist_popularity .card_popularity .image .pop img{
     object-fit: cover;
     height: 100%;
     position: relative;
     left: -80px;
 }
-#section_results .bloc #popularity .cardlist_popularity .card_popularity .image.last a img{
+#section_results .bloc #popularity .cardlist_popularity .card_popularity .image.last .pop img{
     left: 0px;
     width: 100%;
 }
@@ -218,7 +220,6 @@ main #section_search .search .filtres .filters strong i{
 
 #section_results .bloc #popularity .cardlist_popularity .card_popularity:hover{
     box-shadow: 3px 3px 5px #0065FC;
-    cursor: pointer;
 }
 
 #section_results .bloc #host_marseille .cardlist_host .card:hover{
